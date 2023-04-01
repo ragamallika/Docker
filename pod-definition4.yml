@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: httpd-pod
+  labels:
+    author: apple
+spec:
+  containers:
+    - name: myhttpd
+      image: httpd
+...
